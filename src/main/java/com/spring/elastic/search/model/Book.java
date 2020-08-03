@@ -13,6 +13,8 @@ public class Book {
 	private String bookAgeGroup;
 	private String bookDesc;
 	private String bookLanguage;
+	private String author;
+	
 	public String getId() {
 		return id;
 	}
@@ -48,6 +50,12 @@ public class Book {
 	}
 	public void setBookLanguage(String bookLanguage) {
 		this.bookLanguage = bookLanguage;
+	}
+	public String getAuthor() {
+		return author;
+	}
+	public void setAuthor(String author) {
+		this.author = author;
 	}
 	
 	
