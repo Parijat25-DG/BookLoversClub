@@ -14,6 +14,7 @@ public class Book {
 	private String bookDesc;
 	private String bookLanguage;
 	private String author;
+	private int price;
 	
 	public String getId() {
 		return id;
@@ -56,6 +57,12 @@ public class Book {
 	}
 	public void setAuthor(String author) {
 		this.author = author;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
 	}
 	
 	

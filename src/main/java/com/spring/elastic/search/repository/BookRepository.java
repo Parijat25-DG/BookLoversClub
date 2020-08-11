@@ -9,5 +9,7 @@ import com.spring.elastic.search.model.Book;
 public interface BookRepository extends ElasticsearchRepository<Book, String>{
 
 	public List<Book> findByBookLanguage(String bookLanguage);
+	
+	public Book findBookByCriterias(String name,String genre,String bookLanguage);
 
 }
